@@ -22,11 +22,7 @@ export class AppProfile {
     if (this.match && this.match.params.name) {
       return (
         <div class="app-profile">
-          <my-component first="sean" middle="M" last="clemDogMillionaire"></my-component>
-          <p>
-            -- Hello! My name is poops {this.normalize(this.match.params.name)}. My name was passed in
-            through a route param!
-          </p>
+          <my-component first="sean" middle="M" last="clem-stencil"></my-component>
         </div>
       );
     }
